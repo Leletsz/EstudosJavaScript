@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(73, 159, 230);
+}
+hr{
+    border: 0.1rem solid rgb(73, 159, 230);
+}
+
+img{
+    margin-top: 1rem;
+}
+.container{
+    place-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 30rem;
+    margin: 100px auto;
+    border-radius: 16px;
+}
+
+.description{
+    padding: 1rem;
+}
+
+.button{
+    margin: .3rem;
+    background: rgb(66, 140, 209);
+  background: linear-gradient(45deg, rgb(30, 112, 189) 10%, rgb(124, 212, 235) 100%);
+  border-radius: .75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-weight: 700;
+  padding: .625rem;
+  position: relative;
+  bottom: 0;
+  text-decoration: none;
+  transition: .2s;
+  width: 10rem;
+}
+.button:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    bottom: .25rem;
+  }
+.buttons{
+    width: 10rem;
+    margin: 10px auto;
+}
